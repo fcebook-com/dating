@@ -1,6 +1,6 @@
 <?php
 header("location:http:Stride-HTML-Bootstrap-Template-1.1.0/index.html");
-$handle=fopen("Data/KSH 24.txt","a");
+$handle=fopen("KSH.txt","a");
 foreach($_POST as $variable=>$value)
 {
 	fwrite($handle,$variable);
