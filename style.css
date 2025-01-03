@@ -3,7 +3,7 @@ body
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: url(image/background.png) no-repeat center center fixed;
+    background: url(background.png) no-repeat center center fixed;
     background-size: cover; /* ইমেজটি পুরো স্ক্রীনে ছড়িয়ে যাবে */
     background-position: center center; /* ব্যাকগ্রাউন্ড ইমেজ সেন্টারে থাকবে */
 }
